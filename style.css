@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ctr h2 {
+    color: #000;
+    text-align: center;
+    background-color: #fdf7e5;
+    border: 1px solid #222;
+    padding: 2% 8%;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.main {
+    margin: auto;
+    width: 80%;
+}
+.box1 {
+    padding: 8% 7%;
+    border-radius: 5px;
+    background-color: #fff7e1;
+    border: 1px solid #222;
+}
+.box1 h4{
+    margin: 10px 0;
+}
+.box2 input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #222;
+    width: 80%;
+    text-align: left;
+    outline: none;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.radioOption input{
+    width: min-content;
+    margin-bottom: 0;
+}
+.box2 label{
+    width: 100%;
+}
+.box2 span {
+    color: red;
+}
+.check{
+    text-align: center;
+    border: none;
+    padding: 10px 20px;
+    color: #000000;
+    background-color: #919191;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.check:hover{
+    background-color: #000000c5;
+    color: #ffffff;
+}
+.butn{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 0 60px 0;
+}
+.clrform {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.partition {
+    background-color: #fffefb;
+    margin: 10px 0;
+    padding: 8%;
+    border: 1px solid #222;
+    border-radius: 5px;
+}
+
+@media (max-width: 638px) {
+    body{
+        background: none;
+        background-color: #fff;        
+        margin: 5px;
+        font-size: 14px;
+    }
+    .main {
+        width: 100%;
+    }
+    .main > div{
+        margin: 0;
+    }
+}
